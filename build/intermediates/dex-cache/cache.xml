@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\albe.REDMOND\.gradle\caches\modules-2\files-2.1\com.microsoft.azure\azure-mobile-services-android-sdk\2.0.3\5de03bab93697321e5654831bb98df11ad4c19ac\azure-mobile-services-android-sdk-2.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5de03bab93697321e5654831bb98df11ad4c19ac">
+        <dex dex="C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\build\intermediates\pre-dexed\debug\azure-mobile-services-android-sdk-2.0.3-5c3d8e60f13ae31053b4777054129687e705dc97.jar" />
+    </item>
+    <item
+        jar="C:\Users\albe.REDMOND\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\18.0\cce0823396aa693798f8882e64213b1772032b09\guava-18.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\build\intermediates\pre-dexed\debug\guava-18.0-8f54b4c58401e2c399bf4a5f7955c1cdcd558eb9.jar" />
+    </item>
+    <item
+        jar="C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\libs\mobile-engagement-4.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4e68ff776bdc3755ee656db34ddb2aa4530003e6">
+        <dex dex="C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\build\intermediates\pre-dexed\debug\mobile-engagement-4.1.0-6651638844b945685afd093bfcf61027c157a8d7.jar" />
+    </item>
+    <item
+        jar="C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\build\intermediates\exploded-aar\com.github.microsoft.telemetry-client-for-android\AndroidCll\2.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f60a0c59a0f85d07aec2b3379a843014b0a3f9ff">
+        <dex dex="C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\build\intermediates\pre-dexed\debug\classes-7e3284ab73ec6bab8670dfaa25d5d2aa748e9bc8.jar" />
+    </item>
+    <item
+        jar="C:\Users\albe.REDMOND\.gradle\caches\modules-2\files-2.1\com.microsoft.azure\azure-notifications-handler\1.0.1\c322af100020e6db539f2aa367698d4b88fc453f\azure-notifications-handler-1.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="c322af100020e6db539f2aa367698d4b88fc453f">
+        <dex dex="C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\build\intermediates\pre-dexed\debug\azure-notifications-handler-1.0.1-9839f79a68e6df424dd8efe608e04a39e3c971a7.jar" />
+    </item>
+    <item
+        jar="C:\Users\albe.REDMOND\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3\5fc52c41ef0239d1093a1eb7c3697036183677ce\gson-2.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\build\intermediates\pre-dexed\debug\gson-2.3-747aa0572d152d7ff4f2c8f05bb95139814844c6.jar" />
+    </item>
+    <item
+        jar="C:\Users\albe.REDMOND\.gradle\caches\modules-2\files-2.1\com.github.microsoft.telemetry-client-for-android\SharedTelemetryContracts\2.0.0\c83e74a940f020a96a850d71a60ff3c576b9fc85\SharedTelemetryContracts-2.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="c83e74a940f020a96a850d71a60ff3c576b9fc85">
+        <dex dex="C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\build\intermediates\pre-dexed\debug\SharedTelemetryContracts-2.0.0-a614aa071e46271fee00df3a74e33ae9e6877ef3.jar" />
+    </item>
+    <item
+        jar="C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\build\intermediates\exploded-aar\com.microsoft.azure\applicationinsights-android\1.0-beta.9\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3db94101565d516e7b3096ddd94837b843144b50">
+        <dex dex="C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\build\intermediates\pre-dexed\debug\classes-a150093a220c9c1ddef647f0bed8454129407de0.jar" />
+    </item>
+
+</items>

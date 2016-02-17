@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="applicationinsights-android-1.0-beta.9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.microsoft.azure/applicationinsights-android/1.0-beta.9/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.microsoft.azure/applicationinsights-android/1.0-beta.9/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.azure/applicationinsights-android/1.0-beta.9/4c1a8dd24403d77f1fa02a1088cdf39dd9f7ba72/applicationinsights-android-1.0-beta.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

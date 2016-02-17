@@ -1,0 +1,88 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:1:1-35:12
+	package
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:2:5-46
+		INJECTED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:1:11-69
+uses-sdk
+ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:6:5-8:41
+MERGED from [com.microsoft.azure:applicationinsights-android:1.0-beta.9] C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\build\intermediates\exploded-aar\com.microsoft.azure\applicationinsights-android\1.0-beta.9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.microsoft.telemetry-client-for-android:AndroidCll:2.0.0] C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\build\intermediates\exploded-aar\com.github.microsoft.telemetry-client-for-android\AndroidCll\2.0.0\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:8:9-38
+		INJECTED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:7:9-34
+		INJECTED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:10:2-64
+MERGED from [com.microsoft.azure:applicationinsights-android:1.0-beta.9] C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\build\intermediates\exploded-aar\com.microsoft.azure\applicationinsights-android\1.0-beta.9\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:10:19-61
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:11:5-79
+MERGED from [com.microsoft.azure:applicationinsights-android:1.0-beta.9] C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\build\intermediates\exploded-aar\com.microsoft.azure\applicationinsights-android\1.0-beta.9\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:11:22-76
+application
+ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:13:5-33:19
+MERGED from [com.microsoft.azure:applicationinsights-android:1.0-beta.9] C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\build\intermediates\exploded-aar\com.microsoft.azure\applicationinsights-android\1.0-beta.9\AndroidManifest.xml:14:5-18:19
+	android:label
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:16:9-41
+	android:allowBackup
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:15:9-45
+	android:theme
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:17:9-40
+meta-data#com.microsoft.applicationinsights.instrumentationKey
+ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:18:1-20:68
+	android:value
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:20:13-65
+	android:name
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:19:13-80
+service#com.microsoft.azure.engagement.service.EngagementService
+ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:21:9-25:44
+	android:process
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:25:13-42
+	android:label
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:24:13-48
+	android:exported
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:22:13-84
+activity#com.example.mobiledemonstration.ToDoActivity
+ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:26:9-32:20
+	android:label
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:27:13-45
+	android:name
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:26:19-46
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:28:13-31:29
+action#android.intent.action.MAIN
+ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\src\main\AndroidManifest.xml:30:27-74
+meta-data#com.microsoft.applicationinsights.library.sdkVersion
+ADDED from [com.microsoft.azure:applicationinsights-android:1.0-beta.9] C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\build\intermediates\exploded-aar\com.microsoft.azure\applicationinsights-android\1.0-beta.9\AndroidManifest.xml:15:9-17:42
+	android:value
+		ADDED from [com.microsoft.azure:applicationinsights-android:1.0-beta.9] C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\build\intermediates\exploded-aar\com.microsoft.azure\applicationinsights-android\1.0-beta.9\AndroidManifest.xml:17:13-39
+	android:name
+		ADDED from [com.microsoft.azure:applicationinsights-android:1.0-beta.9] C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration\app\build\intermediates\exploded-aar\com.microsoft.azure\applicationinsights-android\1.0-beta.9\AndroidManifest.xml:16:13-80

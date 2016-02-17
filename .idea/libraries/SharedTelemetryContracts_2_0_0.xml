@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SharedTelemetryContracts-2.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.microsoft.telemetry-client-for-android/SharedTelemetryContracts/2.0.0/c83e74a940f020a96a850d71a60ff3c576b9fc85/SharedTelemetryContracts-2.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.microsoft.telemetry-client-for-android/SharedTelemetryContracts/2.0.0/9fd2bc323cff1ca710c5fe9e17eae8f928892e71/SharedTelemetryContracts-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
