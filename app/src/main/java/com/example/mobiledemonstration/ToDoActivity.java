@@ -1,6 +1,7 @@
 package com.example.mobiledemonstration;
 
 
+import java.io.Console;
 import java.net.MalformedURLException;
 import java.util.HashMap;
 import java.util.List;
@@ -110,6 +111,12 @@ public class ToDoActivity extends Activity {
 
             mToDoTable = mClient.getTable(ToDoItem.class);
 authenticate();
+            client.trackEvent("user logged in:");
+            System.out.println("OK!");
+            if (Math.random() < 0.9) {
+                throw new IllegalArgumentException("Epic Random Exception");
+            }
+            System.out.println(";~-(");
             // Offline Sync
             //mToDoTable = mClient.getSyncTable("ToDoItem", ToDoItem.class);
 
@@ -148,7 +155,6 @@ authenticate();
                 createAndShowDialog(String.format(
                         "You are now logged in - %1$2s",
                         user.getUserId()), "Success");
-client.trackEvent("user logged in:"+user.getUserId());
 
             }
         });
