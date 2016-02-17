@@ -42,29 +42,57 @@
             <state vertical-scroll-proportion="-8.793103">
               <caret line="113" column="47" selection-start-line="113" selection-start-column="47" selection-end-line="113" selection-end-column="47" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5591#5592#0" expanded="true" />
-                <element signature="e#5668#5669#0" expanded="true" />
-                <element signature="e#12126#12150#0" expanded="true" />
+                <element signature="e#6777#7456#0" expanded="false" />
+                <element signature="e#6995#7275#0" expanded="false" />
+                <element signature="e#7274#7275#0" expanded="false" />
+                <element signature="e#7455#7456#0" expanded="false" />
+                <element signature="e#8233#8933#0" expanded="false" />
+                <element signature="e#8473#8753#0" expanded="false" />
+                <element signature="e#8752#8753#0" expanded="false" />
+                <element signature="e#8932#8933#0" expanded="false" />
+                <element signature="e#9569#10480#0" expanded="false" />
+                <element signature="e#9969#10300#0" expanded="false" />
+                <element signature="e#10299#10300#0" expanded="false" />
+                <element signature="e#10479#10480#0" expanded="false" />
+                <element signature="e#11611#12772#0" expanded="false" />
+                <element signature="e#12771#12772#0" expanded="false" />
+                <element signature="e#13882#14033#0" expanded="false" />
+                <element signature="e#14032#14033#0" expanded="false" />
+                <element signature="e#15703#15909#0" expanded="false" />
+                <element signature="e#15908#15909#0" expanded="false" />
+                <element signature="e#16181#16182#0" expanded="false" />
+                <element signature="e#16249#16250#0" expanded="false" />
+                <element signature="e#16384#16627#0" expanded="false" />
+                <element signature="e#16626#16627#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.296296">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="38" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.14761215">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.6296296">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78634363">
+            <state vertical-scroll-proportion="0.0">
               <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding />
             </state>
@@ -1197,7 +1225,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration" value="4348488383300" />
+        <entry key="C:\Dev\Repos\CrossPlatformALM\CrossPlatformALM\mobiledemonstration_Android\mobiledemonstration" value="4348489934700" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1523,8 +1551,8 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mobiledemonstration/ToDoActivity.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
@@ -1803,7 +1831,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1812,7 +1840,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962447" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1857,26 +1885,52 @@
         <state vertical-scroll-proportion="-8.793103">
           <caret line="113" column="47" selection-start-line="113" selection-start-column="47" selection-end-line="113" selection-end-column="47" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5591#5592#0" expanded="true" />
-            <element signature="e#5668#5669#0" expanded="true" />
-            <element signature="e#12126#12150#0" expanded="true" />
+            <element signature="e#6777#7456#0" expanded="false" />
+            <element signature="e#6995#7275#0" expanded="false" />
+            <element signature="e#7274#7275#0" expanded="false" />
+            <element signature="e#7455#7456#0" expanded="false" />
+            <element signature="e#8233#8933#0" expanded="false" />
+            <element signature="e#8473#8753#0" expanded="false" />
+            <element signature="e#8752#8753#0" expanded="false" />
+            <element signature="e#8932#8933#0" expanded="false" />
+            <element signature="e#9569#10480#0" expanded="false" />
+            <element signature="e#9969#10300#0" expanded="false" />
+            <element signature="e#10299#10300#0" expanded="false" />
+            <element signature="e#10479#10480#0" expanded="false" />
+            <element signature="e#11611#12772#0" expanded="false" />
+            <element signature="e#12771#12772#0" expanded="false" />
+            <element signature="e#13882#14033#0" expanded="false" />
+            <element signature="e#14032#14033#0" expanded="false" />
+            <element signature="e#15703#15909#0" expanded="false" />
+            <element signature="e#15908#15909#0" expanded="false" />
+            <element signature="e#16181#16182#0" expanded="false" />
+            <element signature="e#16249#16250#0" expanded="false" />
+            <element signature="e#16384#16627#0" expanded="false" />
+            <element signature="e#16626#16627#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.296296">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="38" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78634363">
+        <state vertical-scroll-proportion="0.0">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6296296">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14761215">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding />
         </state>
       </provider>
