@@ -13,6 +13,7 @@ import android.app.AlertDialog;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -25,6 +26,8 @@ import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.SettableFuture;
 import com.microsoft.applicationinsights.library.TelemetryClient;
+import com.microsoft.azure.engagement.EngagementConfiguration;
+import com.microsoft.azure.engagement.activity.EngagementActivity;
 import com.microsoft.windowsazure.mobileservices.MobileServiceClient;
 import com.microsoft.windowsazure.mobileservices.authentication.MobileServiceAuthenticationProvider;
 import com.microsoft.windowsazure.mobileservices.authentication.MobileServiceUser;
@@ -41,10 +44,10 @@ import com.microsoft.windowsazure.mobileservices.table.sync.localstore.ColumnDat
 import com.microsoft.windowsazure.mobileservices.table.sync.localstore.MobileServiceLocalStoreException;
 import com.microsoft.windowsazure.mobileservices.table.sync.localstore.SQLiteLocalStore;
 import com.microsoft.windowsazure.mobileservices.table.sync.synchandler.SimpleSyncHandler;
-
+import com.microsoft.azure.engagement.EngagementAgent;
 import static com.microsoft.windowsazure.mobileservices.table.query.QueryOperations.*;
 
-public class ToDoActivity extends Activity {
+public class ToDoActivity extends EngagementActivity {
 
     /**
      * Mobile Service Client reference
@@ -52,7 +55,7 @@ public class ToDoActivity extends Activity {
     private MobileServiceClient mClient;
 
     private MobileServiceUser loggedUser;
-    TelemetryClient client = TelemetryClient.getInstance();
+
     /**
      * Mobile Service Table used to access data
      */
@@ -85,7 +88,9 @@ public class ToDoActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        ApplicationInsights.setup(this.getApplicationContext(), this.getApplication());
+        ApplicationInsights.start();
+        TelemetryClient client = TelemetryClient.getInstance();
         setContentView(R.layout.activity_to_do);
 
         mProgressBar = (ProgressBar) findViewById(R.id.loadingProgressBar);
@@ -97,10 +102,9 @@ public class ToDoActivity extends Activity {
 
 
         try {
-            ApplicationInsights.setup(this.getApplicationContext(), this.getApplication());
-            ApplicationInsights.start();
-            // Create the Mobile Service Client instance, using the provided
 
+            // Create the Mobile Service Client instance, using the provided
+            TelemetryClient tc = TelemetryClient.getInstance();
             // Mobile Service URL and key
             mClient = new MobileServiceClient(
                     "https://mobiledemonstration.azure-mobile.net/",
@@ -109,13 +113,31 @@ public class ToDoActivity extends Activity {
 
             // Get the Mobile Service Table instance to use
 
-            mToDoTable = mClient.getTable(ToDoItem.class);
+          //  mToDoTable = mClient.getTable(ToDoItem.class);
+
+            tc.trackEvent("SampleEvent");
 authenticate();
             client.trackEvent("user logged in:");
             System.out.println("OK!");
-            if (Math.random() < 0.9) {
-                throw new IllegalArgumentException("Epic Random Exception");
-            }
+
+            EngagementConfiguration engagementConfiguration = new EngagementConfiguration();
+            engagementConfiguration.setConnectionString("Endpoint=MobileDemo-Collection.device.mobileengagement.windows.net;SdkKey=502fdbb756c93d21b29d4e9e360ee139;AppId=cum000061");
+
+
+
+            EngagementAgent.getInstance(this).init(engagementConfiguration);
+            // Offline Sync
+            //mToDoTable = mClient.getSyncTable("ToDoItem", ToDoItem.class);
+            EngagementAgent engagent = EngagementAgent.getInstance(this);
+
+
+            engagent.getDeviceId(new EngagementAgent.Callback<String>() {
+                @Override
+                public void onResult(String deviceId) {
+                    Log.v("myapp", "Got my device id:" + deviceId);
+                }
+            });
+
             System.out.println(";~-(");
             // Offline Sync
             //mToDoTable = mClient.getSyncTable("ToDoItem", ToDoItem.class);
@@ -131,12 +153,13 @@ authenticate();
             listViewToDo.setAdapter(mAdapter);
 
             // Load the items from the Mobile Service
-            refreshItemsFromTable();
-
+            //refreshItemsFromTable();
+           throw new Exception("Epic Random Exception");
         } catch (MalformedURLException e) {
             createAndShowDialog(new Exception("There was an error creating the Mobile Service. Verify the URL"), "Error");
         } catch (Exception e){
-            createAndShowDialog(e, "Error");
+            createAndShowDialog(e, "Generic Error");
+            client.trackEvent(e.getMessage());
         }
     }
 
