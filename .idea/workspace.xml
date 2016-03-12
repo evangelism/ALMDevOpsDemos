@@ -39,12 +39,12 @@
       <file leaf-file-name="ToDoActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mobiledemonstration/ToDoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6365639">
-              <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.64096916">
+              <caret line="140" column="14" selection-start-line="140" selection-start-column="14" selection-end-line="140" selection-end-column="14" />
               <folding>
                 <element signature="e#5150#5372#0" expanded="true" />
                 <element signature="e#5371#5372#0" expanded="true" />
-                <element signature="e#13230#13254#0" expanded="true" />
+                <element signature="e#13235#13259#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1778,7 +1778,7 @@
           <folding>
             <element signature="e#5150#5372#0" expanded="true" />
             <element signature="e#5371#5372#0" expanded="true" />
-            <element signature="e#13230#13254#0" expanded="true" />
+            <element signature="e#13235#13259#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1798,7 +1798,7 @@
           <folding>
             <element signature="e#5150#5372#0" expanded="true" />
             <element signature="e#5371#5372#0" expanded="true" />
-            <element signature="e#13230#13254#0" expanded="true" />
+            <element signature="e#13235#13259#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1818,7 +1818,7 @@
           <folding>
             <element signature="e#5150#5372#0" expanded="true" />
             <element signature="e#5371#5372#0" expanded="true" />
-            <element signature="e#13230#13254#0" expanded="true" />
+            <element signature="e#13235#13259#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1841,12 +1841,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mobiledemonstration/ToDoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6365639">
-          <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.64096916">
+          <caret line="140" column="14" selection-start-line="140" selection-start-column="14" selection-end-line="140" selection-end-column="14" />
           <folding>
             <element signature="e#5150#5372#0" expanded="true" />
             <element signature="e#5371#5372#0" expanded="true" />
-            <element signature="e#13230#13254#0" expanded="true" />
+            <element signature="e#13235#13259#0" expanded="true" />
           </folding>
         </state>
       </provider>

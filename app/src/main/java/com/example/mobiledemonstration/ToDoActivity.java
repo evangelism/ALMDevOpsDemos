@@ -138,7 +138,7 @@ authenticate();
                 }
             });
 
-            System.out.println(";~-(");
+            //System.out.println(";~-(");
             // Offline Sync
             //mToDoTable = mClient.getSyncTable("ToDoItem", ToDoItem.class);
 
@@ -177,7 +177,7 @@ authenticate();
             public void onSuccess(MobileServiceUser user) {
                 createAndShowDialog(String.format(
                         "You are now logged in - %1$2s",
-                        user.getUserId()), "Success");
+                        user.getUserId()), "Successful");
 
             }
         });
