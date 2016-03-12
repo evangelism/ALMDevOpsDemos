@@ -154,7 +154,6 @@ authenticate();
 
             // Load the items from the Mobile Service
             //refreshItemsFromTable();
-           throw new Exception("Epic Random Exception");
         } catch (MalformedURLException e) {
             createAndShowDialog(new Exception("There was an error creating the Mobile Service. Verify the URL"), "Error");
         } catch (Exception e){
